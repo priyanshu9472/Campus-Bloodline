@@ -1,0 +1,187 @@
+/* Hero Starts */
+.hero {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 500px;
+    color: #f7f7f7;
+}
+
+.btn-light {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .blood-drop {
+        display: none;
+    }
+}
+
+/* Hero Ends */
+
+
+/* Header Starts */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.btn-outline-danger {
+    font-size: 1rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+/* Header ends */
+
+/* Encouragement Starts */
+ 
+.donation-process {
+  background-color: #f7f7f7;
+}
+
+.donation-process h2 {
+  color: #c0392b;
+}
+
+.donation-process .list-group-item {
+  background-color: #fff;
+  border: 1px solid #e74c3c;
+  color: #333;
+}
+
+.donation-process .list-group-item:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+  /* Encouragment Ends */
+
+  /* FAQs Starts */
+
+  .faqs {
+    background-color: #f7f7f7;
+  }
+
+  .faqs h2 {
+    color: #c0392b;
+  }
+
+  .faqs .card {
+    border: 1px solid #e74c3c;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .faqs .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .faqs .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .faqs .card-text {
+    color: #333;
+  }
+
+  /* FAQs ends */
+
+  /* Footer Starts */
+
+  footer {
+    background-color: #c0392b;
+  }
+
+  footer a {
+    text-decoration: none !important;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  footer .list-unstyled li {
+    margin-bottom: 10px;
+  }
+
+  footer .social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    margin-left: 1em;
+  }
+
+  footer .social-icons a:hover {
+    color: #e74c3c;
+  }
+
+
+/* Footer Ends */
+
+
+
+/* Donation Events Starts */
+.donation-card {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.donation-card:hover {
+  transform: scale(1.02);
+}
+
+.icon {
+  color: #dc3545; /* Red for blood donation theme */
+  font-size: 1.2rem;
+}
+
+.icon-lg {
+  font-size: 1.8rem;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Donation Events Ends */
