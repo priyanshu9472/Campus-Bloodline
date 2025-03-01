@@ -1,0 +1,27 @@
+.Header {
+    width: 100%;
+}
+
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .notification-tip {
+    display: inline-block;
+    background-color: red; 
+    color: white;         
+    border-radius: 50%;   
+    width: 20px;          
+    height: 20px;         
+    text-align: center;    
+    font-size: 0.75rem;    
+    line-height: 20px;     
+    margin-left: 10px;     
+  }
